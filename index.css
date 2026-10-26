@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #f5f5f5;
+    font-size: 13px;
+    color: #000;
+}
+
+.app-container {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header {
+    height: 67px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.oldgram {
+    width: 127px;
+}
+
+.profile,
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post {
+    border-bottom: 25px solid #ededed;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.user-info h2 {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.user-info p {
+    font-size: 12px;
+}
+
+.post-img {
+    width: 100%;
+    display: block;
+}
+
+.post-footer {
+    padding: 12px 10px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.icon {
+    width: 23px;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+}
+
+.icon:hover {
+    opacity: 0.6;
+}
+
+.icon:active {
+    transform: scale(1.15);
+}
